@@ -13,9 +13,10 @@ if __name__ == "__main__":
     matches_table, matches_writer = coinbase.matches()
 
     # Create a simple aggregation
-    matches_stats = matches_table.agg_by(
+    matches_stats = matches_table.update_view(["volume=price*size"]).agg_by(
         [
             agg.count_("count"),
+            agg.sum_("volume"),
             agg.last(["time", "last_price=price", "last_size=size"]),
             agg.weighted_avg("size", "avg_price=price"),
         ],
