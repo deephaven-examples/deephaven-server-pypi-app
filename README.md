@@ -29,3 +29,15 @@ pip install deephaven-example-app
 
 python -m deephaven_example_app
 ```
+
+## Development
+
+
+```shell
+export JAVA_HOME=/path/to/java_home
+source /path/to/dev-venv/bin/activate
+
+pip install -e .
+
+python -m deephaven_example_app
+```
