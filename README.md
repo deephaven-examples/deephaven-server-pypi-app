@@ -24,7 +24,7 @@ A [virtual environment](https://docs.python.org/3/tutorial/venv.html) is recomme
 curl one-liner:
 
 ```shell
-curl -sSf https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh | sh
+curl -fsSL https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh | sh
 ```
 
 wget one-liner:
