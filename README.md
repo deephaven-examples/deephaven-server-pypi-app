@@ -24,13 +24,13 @@ A [virtual environment](https://docs.python.org/3/tutorial/venv.html) is recomme
 curl one-liner:
 
 ```shell
-curl -fsSL https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh | sh
+curl -fsSL https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh | bash
 ```
 
 wget one-liner:
 
 ```shell
-wget https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh -O - | sh
+wget https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh -O - | bash
 ```
 
 Or more explicitly:
