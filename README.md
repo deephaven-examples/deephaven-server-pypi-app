@@ -21,6 +21,20 @@ A [virtual environment](https://docs.python.org/3/tutorial/venv.html) is recomme
 
 ## Quickstart
 
+curl one-liner:
+
+```shell
+curl -sSf https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh | sh"
+```
+
+wget one-liner:
+
+```shell
+wget https://raw.github.com/deephaven-examples/deephaven-server-pypi-app/main/deephaven-example-app.sh -O - | sh
+```
+
+Or more explicitly:
+
 ```shell
 export JAVA_HOME=/path/to/java_home
 source /path/to/venv/bin/activate
