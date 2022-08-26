@@ -22,7 +22,7 @@ echo "Installing requirements..."
 "${__pip}" install -q --upgrade pip
 
 "${__pip}" install -q \
-    "jpy>=0.11.1.dev0" \
+    "jpy>=0.11.1" \
     java-utilities \
     deephaven-example-app
 
